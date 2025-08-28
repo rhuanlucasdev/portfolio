@@ -88,14 +88,14 @@ const en = {
       {
         institution: "UNIFEI",
         degree: "Bachelor's Degree in Physics",
-        period: "2018 - 2022",
+        period: "2019 - 2022",
         description:
           "I studied for a bachelor's degree in physics, where I developed a great knowledge of logic and complex calculations, I also learned Python",
       },
       {
         institution: "CEP - Brazopolis",
         degree: "Technical Degree in Web Development",
-        period: "2016 - 2017",
+        period: "2017 - 2018",
         description:
           "Completed a comprehensive program covering technologies such as Java, HTML, CSS, JavaScript, MySQL, PHP.",
       },

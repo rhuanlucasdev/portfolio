@@ -88,14 +88,14 @@ const pt = {
       {
         institution: "UNIFEI",
         degree: "Bacharelado em Física",
-        period: "2018 - 2022",
+        period: "2019 - 2022",
         description:
           "Cursei bacharelado em física, onde desenvolvi um grande conhecimento em lógica e cálculos complexos, também aprendi Python",
       },
       {
         institution: "CEP - Brazopolis",
         degree: "Curso Técnico em Desenvolvimento Web",
-        period: "2016 - 2017",
+        period: "2017 - 2018",
         description:
           "Concluí um programa abrangente cobrindo tecnologias como Java, HTML, CSS, JavaScript, MySQL, PHP.",
       },
