@@ -12,12 +12,6 @@ This repository contains the source code of my personal portfolio, showcasing my
 - ReactJS | NextJS | TypeScript | TailwindCSS
 - Netlify for deployment
 
-## 📂 Structure
-- `/components` – Reusable UI components  
-- `/pages` – Next.js pages  
-- `/public` – Static assets  
-- `/styles` – Global styles & Tailwind config  
-
 ## 📫 Contact
 - LinkedIn: [https://www.linkedin.com/in/rhuanlucasdev](https://www.linkedin.com/in/rhuanlucasdev)  
 - GitHub: [https://github.com/rhuanlucasdev](https://github.com/rhuanlucasdev)
