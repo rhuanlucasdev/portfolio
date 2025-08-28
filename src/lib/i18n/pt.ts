@@ -44,6 +44,16 @@ const pt = {
           tags: ["ReactJS", "NextJS", "Typescript", "TailwindCSS", "UI/UX"],
           liveLink: "https://embraza.netlify.app",
         },
+        {
+          title: "Desenvolvedor Frontend - RHA Engenharia",
+          period: "2024 - 2025",
+          description:
+            "Atuei por 1 ano como desenvolvedor freelancer na RHA Engenharia, criando interfaces para sistemas de monitoramento de hidrelétricas. Convertia protótipos do Figma em aplicações funcionais com ReactJS, HTML e CSS, garantindo design responsivo e boa performance. Os projetos incluíam painéis interativos, gráficos dinâmicos e históricos de inspeções, colaborando de perto com designers e engenheiros para entregar soluções escaláveis e de fácil manutenção.",
+          imageUrl: "/RHA.jpg",
+          imageHint: "logo da RHA Engenharia",
+          tags: ["ReactJS", "HTML", "CSS", "Figma"],
+          liveLink: "https://www.rhaengenharia.com.br",
+        },
       ],
     },
     personal: {

@@ -44,6 +44,16 @@ const en = {
           tags: ["ReactJS", "NextJS", "Typescript", "TailwindCSS", "UI/UX"],
           liveLink: "https://embraza.netlify.app",
         },
+        {
+          title: "Frontend Developer - RHA Engenharia",
+          period: "2024 - 2025",
+          description:
+            "I worked for a year as a freelance developer at RHA Engenharia, creating interfaces for hydroelectric power plant monitoring systems. I converted Figma prototypes into functional applications with ReactJS, HTML, and CSS, ensuring responsive design and good performance. Projects included interactive dashboards, dynamic charts, and inspection logs, collaborating closely with designers and engineers to deliver scalable and maintainable solutions.",
+          imageUrl: "/RHA.jpg",
+          imageHint: "logo da RHA Engenharia",
+          tags: ["ReactJS", "HTML", "CSS", "Figma"],
+          liveLink: "https://www.rhaengenharia.com.br",
+        },
       ],
     },
     personal: {
