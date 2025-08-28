@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { Menu, X, CodeXml } from "lucide-react";
+import { Menu, CodeXml } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
   Sheet,
@@ -106,12 +106,6 @@ export default function Header() {
                       Rhuan Lucas
                     </span>
                   </Link>
-                  <SheetClose asChild>
-                    <Button variant="ghost" size="icon">
-                      <X className="h-6 w-6" />
-                      <span className="sr-only">Close Menu</span>
-                    </Button>
-                  </SheetClose>
                 </div>
                 <nav className="flex flex-col gap-6">
                   {navLinks.map((link) => (
