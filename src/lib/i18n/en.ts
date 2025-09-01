@@ -38,7 +38,7 @@ const en = {
           title: "Frontend Developer for Embraza Concepts",
           period: "2025 - now",
           description:
-            "Led the development of the EMBRAZA landing page using React, Next.js, TypeScript, and TailwindCSS, implementing a fully responsive design and reusable components. Collaborated with clients to align the site with the brand’s visual identity and delivered a polished, user-friendly web experience. Currently finalizing content and social media integration.",
+            "Initially developed the EMBRAZA landing page using React, Next.js, TypeScript, and TailwindCSS, delivering a responsive, high-performance site that strengthened the brand’s online presence. With the project’s expansion, I am now contributing to the development of a full e-commerce platform, aiming to enhance user experience, increase engagement, and drive online sales while maintaining a scalable and maintainable codebase.",
           imageUrl: "/embraza.jpg",
           imageHint: "responsive landing page",
           tags: ["ReactJS", "NextJS", "Typescript", "TailwindCSS", "UI/UX"],
@@ -72,9 +72,9 @@ const en = {
           liveLink: "https://github.com/rhuanlucasdev/bikecraft",
         },
         {
-          title: "SurvivalPlus_NeoForge",
+          title: "SurvivalPlus",
           description:
-            "SurvivalPlus_NeoForge is a Minecraft mod in Java. While frontend is my main focus, I joined the project to learn Java and build simple interfaces, using the opportunity to explore new technologies.",
+            "Contributed to the SurvivalPlus mod in Java, developing simple interfaces and exploring new technologies beyond frontend.",
           imageUrl: "https://github.com/rhuanlucasdev.png",
           imageHint: "github avatar",
           tags: ["JAVA"],

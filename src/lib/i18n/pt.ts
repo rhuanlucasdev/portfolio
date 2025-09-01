@@ -38,7 +38,7 @@ const pt = {
           title: "Desenvolvedor Frontend - Embraza Concepts",
           period: "2025 - atualmente",
           description:
-            "Liderei o desenvolvimento da landing page da EMBRAZA utilizando React, Next.js, TypeScript e TailwindCSS, implementando um design totalmente responsivo e componentes reutilizáveis. Colaborei com os clientes para alinhar o site à identidade visual da marca, entregando uma experiência web polida e amigável ao usuário. Atualmente finalizando conteúdos e integração com redes sociais.",
+            "Iniciei o desenvolvimento da landing page da EMBRAZA utilizando React, Next.js, TypeScript e TailwindCSS, entregando um site responsivo, de alta performance, que fortaleceu a presença online da marca. Com a expansão do projeto, agora colaboro no desenvolvimento de uma plataforma completa de e-commerce, com o objetivo de melhorar a experiência do usuário, aumentar o engajamento e impulsionar as vendas online, garantindo um código escalável e de fácil manutenção.",
           imageUrl: "/embraza.jpg",
           imageHint: "landing page responsiva",
           tags: ["ReactJS", "NextJS", "Typescript", "TailwindCSS", "UI/UX"],
@@ -72,9 +72,9 @@ const pt = {
           liveLink: "https://github.com/rhuanlucasdev/bikecraft",
         },
         {
-          title: "SurvivalPlus_NeoForge",
+          title: "SurvivalPlus",
           description:
-            "SurvivalPlus_NeoForge é um mod de Minecraft em Java. Embora frontend seja meu foco, participei do projeto para aprender Java e desenvolver interfaces simples, aproveitando a oportunidade para explorar novas tecnologias.",
+            "Contribuí para o mod SurvivalPlus em Java, desenvolvendo interfaces simples e explorando novas tecnologias além do frontend.",
           imageUrl: "https://github.com/rhuanlucasdev.png",
           imageHint: "github avatar",
           tags: ["JAVA"],
