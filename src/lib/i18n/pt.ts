@@ -72,13 +72,13 @@ const pt = {
           liveLink: "https://github.com/rhuanlucasdev/bikecraft",
         },
         {
-          title: "SurvivalPlus",
+          title: "apple_website",
           description:
-            "Contribuí para o mod SurvivalPlus em Java, desenvolvendo interfaces simples e explorando novas tecnologias além do frontend.",
+            "Site inspirado na Apple para praticar animações 2D/3D com GSAP e Three.js em React, usando TailwindCSS personalizado.",
           imageUrl: "https://github.com/rhuanlucasdev.png",
           imageHint: "github avatar",
-          tags: ["JAVA"],
-          liveLink: "https://github.com/rhuanlucasdev/SurvivalPlus_NeoForge",
+          tags: ["React", "GSAP", "Three.js", "TailwindCSS"],
+          liveLink: "https://github.com/rhuanlucasdev/apple_website",
         },
       ],
     },

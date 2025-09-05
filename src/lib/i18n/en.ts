@@ -46,7 +46,7 @@ const en = {
         },
         {
           title: "Frontend Developer - RHA Engenharia",
-          period: "2024 - 2025",
+          period: "2025 - now",
           description:
             "I worked for a year as a freelance developer at RHA Engenharia, creating interfaces for hydroelectric power plant monitoring systems. I converted Figma prototypes into functional applications with ReactJS, HTML, and CSS, ensuring responsive design and good performance. Projects included interactive dashboards, dynamic charts, and inspection logs, collaborating closely with designers and engineers to deliver scalable and maintainable solutions.",
           imageUrl: "/RHA.jpg",
@@ -72,13 +72,13 @@ const en = {
           liveLink: "https://github.com/rhuanlucasdev/bikecraft",
         },
         {
-          title: "SurvivalPlus",
+          title: "apple_website",
           description:
-            "Contributed to the SurvivalPlus mod in Java, developing simple interfaces and exploring new technologies beyond frontend.",
+            "Apple-inspired website to practice 2D/3D animations with GSAP and Three.js in React, using custom TailwindCSS.",
           imageUrl: "https://github.com/rhuanlucasdev.png",
           imageHint: "github avatar",
-          tags: ["JAVA"],
-          liveLink: "https://github.com/rhuanlucasdev/SurvivalPlus_NeoForge",
+          tags: ["React", "GSAP", "Three.js", "TailwindCSS"],
+          liveLink: "https://github.com/rhuanlucasdev/apple_website",
         },
       ],
     },
