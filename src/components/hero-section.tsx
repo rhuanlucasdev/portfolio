@@ -9,6 +9,8 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
+import { useEffect, useRef } from "react";
+import gsap from "gsap";
 
 const techIcons: { [key: string]: React.ReactNode } = {
   React: (
@@ -98,19 +100,67 @@ export default function HeroSection() {
   const t = useTranslations();
   const skills = t.hero.skills;
 
+  // refs para animar
+  const titleRef = useRef<HTMLHeadingElement>(null);
+  const descRef = useRef<HTMLParagraphElement>(null);
+  const buttonsRef = useRef<HTMLDivElement>(null);
+  const skillsRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    // timeline gsap
+    const tl = gsap.timeline({ defaults: { ease: "power3.out", duration: 1 } });
+
+    // título vindo de baixo com fade
+    tl.fromTo(titleRef.current, { y: 50, opacity: 0 }, { y: 0, opacity: 1 })
+      // descrição logo depois
+      .fromTo(
+        descRef.current,
+        { y: 30, opacity: 0 },
+        { y: 0, opacity: 1 },
+        "-=0.5"
+      )
+      // botões
+      .fromTo(
+        buttonsRef.current,
+        { y: 30, opacity: 0 },
+        { y: 0, opacity: 1 },
+        "-=0.5"
+      )
+      // ícones entrando em cascata
+      .fromTo(
+        gsap.utils.toArray(skillsRef.current?.children || []),
+        { y: 30, opacity: 0 },
+        {
+          y: 0,
+          opacity: 1,
+          stagger: 0.15,
+        },
+        "-=0.3"
+      );
+  }, []);
+
   return (
     <section
       id="about"
       className="container mx-auto max-w-7xl px-4 py-20 text-center sm:py-28 md:py-32"
     >
       <div className="mx-auto max-w-3xl">
-        <h1 className="font-headline text-4xl font-extrabold tracking-tight text-foreground sm:text-5xl md:text-6xl lg:text-7xl">
+        <h1
+          ref={titleRef}
+          className="font-headline text-4xl font-extrabold tracking-tight text-foreground sm:text-5xl md:text-6xl lg:text-7xl"
+        >
           {t.hero.title1} <span className="text-primary">{t.hero.title2}</span>
         </h1>
-        <p className="mt-6 text-lg leading-8 text-muted-foreground md:text-xl">
+        <p
+          ref={descRef}
+          className="mt-6 text-lg leading-8 text-muted-foreground md:text-xl"
+        >
           {t.hero.description}
         </p>
-        <div className="mt-10 flex items-center justify-center gap-x-6">
+        <div
+          ref={buttonsRef}
+          className="mt-10 flex items-center justify-center gap-x-6"
+        >
           <Button asChild size="lg">
             <Link href="#contact">{t.hero.cta1}</Link>
           </Button>
@@ -125,12 +175,15 @@ export default function HeroSection() {
           {t.hero.skillsTitle}
         </h2>
         <div className="grid grid-cols-1 gap-12">
-          <div className="flex flex-wrap justify-center gap-8 md:gap-12">
+          <div
+            ref={skillsRef}
+            className="flex flex-wrap justify-center gap-8 md:gap-12"
+          >
             {skills.map((skill) => (
               <TooltipProvider key={skill}>
                 <Tooltip>
                   <TooltipTrigger>
-                    <div className="flex h-20 w-20 items-center justify-center rounded-full bg-card p-2 transition-all hover:shadow-lg hover:shadow-primary/20">
+                    <div className="flex h-20 w-20 items-center justify-center rounded-full bg-card p-2 transition-all hover:scale-110 hover:shadow-lg hover:shadow-primary/20">
                       {techIcons[skill]}
                     </div>
                   </TooltipTrigger>

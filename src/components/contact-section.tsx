@@ -1,11 +1,17 @@
 "use client";
 
+import { useEffect, useRef } from "react";
 import Link from "next/link";
 import { Github, Linkedin, Instagram } from "lucide-react";
 import { useTranslations } from "@/hooks/use-translations";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
 
 export default function ContactSection() {
   const t = useTranslations();
+  const containerRef = useRef<HTMLDivElement>(null);
 
   const contactLinks = [
     {
@@ -28,9 +34,46 @@ export default function ContactSection() {
     },
   ];
 
+  useEffect(() => {
+    if (!containerRef.current) return;
+
+    const cards = containerRef.current.querySelectorAll<HTMLAnchorElement>("a");
+
+    // Animação dos cards: fade + slide + stagger
+    gsap.fromTo(
+      cards,
+      { opacity: 0, y: 50 },
+      {
+        opacity: 1,
+        y: 0,
+        duration: 0.8,
+        stagger: 0.2,
+        ease: "power3.out",
+        scrollTrigger: {
+          trigger: containerRef.current,
+          start: "top 90%",
+        },
+      }
+    );
+
+    // Hover pulse nos ícones
+    cards.forEach((card) => {
+      const icon = card.querySelector<SVGSVGElement>("svg");
+      if (!icon) return;
+
+      card.addEventListener("mouseenter", () => {
+        gsap.to(icon, { scale: 1.2, duration: 0.2, ease: "power1.out" });
+      });
+      card.addEventListener("mouseleave", () => {
+        gsap.to(icon, { scale: 1, duration: 0.2, ease: "power1.out" });
+      });
+    });
+  }, []);
+
   return (
     <section
       id="contact"
+      ref={containerRef}
       className="container mx-auto max-w-7xl px-4 py-20 sm:py-28"
     >
       <div className="mx-auto max-w-2xl text-center">
