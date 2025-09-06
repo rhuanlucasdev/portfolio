@@ -17,8 +17,8 @@ export default function ContactSection() {
     {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "https://www.linkedin.com/in/rhuanlucasdev",
-      handle: "linkedin.com/in/rhuanlucasdev",
+      href: "https://www.linkedin.com/in/rhuanlucascas",
+      handle: "linkedin.com/in/rhuanlucascas",
     },
     {
       icon: Github,
