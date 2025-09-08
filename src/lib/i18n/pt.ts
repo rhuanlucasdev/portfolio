@@ -63,13 +63,13 @@ const pt = {
       cta: "Ver no GitHub",
       items: [
         {
-          title: "Bikecraft",
+          title: "FitPlan",
           description:
-            "Bikecraft é um site para loja de bicicletas, desenvolvido com HTML, CSS, PHP e JavaScript, oferecendo navegação responsiva e formulários de contato.",
+            "Aplicação web para criar e editar planilhas de treino e dieta com tabelas dinâmicas, exportação em PDF (jsPDF), desenvolvida em React, TypeScript, TailwindCSS e React Router.",
           imageUrl: "https://github.com/rhuanlucasdev.png",
           imageHint: "github avatar",
-          tags: ["HTML", "CSS", "PHP", "JavaScript"],
-          liveLink: "https://github.com/rhuanlucasdev/bikecraft",
+          tags: ["React", "TypeScript", "React-Router", "TailwindCSS", "jsPDF"],
+          liveLink: "https://github.com/rhuanlucasdev/fitplan",
         },
         {
           title: "apple_website",
@@ -79,6 +79,24 @@ const pt = {
           imageHint: "github avatar",
           tags: ["React", "GSAP", "Three.js", "TailwindCSS"],
           liveLink: "https://github.com/rhuanlucasdev/apple_website",
+        },
+        {
+          title: "portfolio_Guilherme",
+          description:
+            "Portfólio em desenvolvimento para meu amigo Guilherme Inácio, construído com Next.js, TypeScript e TailwindCSS.",
+          imageUrl: "https://github.com/rhuanlucasdev.png",
+          imageHint: "github avatar",
+          tags: ["Next.js", "TypeScript", "TailwindCSS"],
+          liveLink: "https://github.com/rhuanlucasdev/portfolio_guilherme",
+        },
+        {
+          title: "Bikecraft",
+          description:
+            "Bikecraft é um site para loja de bicicletas, desenvolvido com HTML, CSS, PHP e JavaScript, oferecendo navegação responsiva e formulários de contato.",
+          imageUrl: "https://github.com/rhuanlucasdev.png",
+          imageHint: "github avatar",
+          tags: ["HTML", "CSS", "PHP", "JavaScript"],
+          liveLink: "https://github.com/rhuanlucasdev/bikecraft",
         },
       ],
     },

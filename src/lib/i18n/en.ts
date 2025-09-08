@@ -63,13 +63,13 @@ const en = {
       cta: "View on GitHub",
       items: [
         {
-          title: "Bikecraft",
+          title: "FitPlan",
           description:
-            "Bikecraft is a bicycle shop website built with HTML, CSS, PHP, and JavaScript, featuring responsive navigation and contact forms.",
+            "Web app to create and edit workout and diet sheets with dynamic tables, PDF export (jsPDF), built in React, TypeScript, TailwindCSS, and React Router.",
           imageUrl: "https://github.com/rhuanlucasdev.png",
           imageHint: "github avatar",
-          tags: ["HTML", "CSS", "PHP", "JavaScript"],
-          liveLink: "https://github.com/rhuanlucasdev/bikecraft",
+          tags: ["React", "TypeScript", "React-Router", "TailwindCSS", "jsPDF"],
+          liveLink: "https://github.com/rhuanlucasdev/fitplan",
         },
         {
           title: "apple_website",
@@ -79,6 +79,24 @@ const en = {
           imageHint: "github avatar",
           tags: ["React", "GSAP", "Three.js", "TailwindCSS"],
           liveLink: "https://github.com/rhuanlucasdev/apple_website",
+        },
+        {
+          title: "portfolio_Guilherme",
+          description:
+            "Portfolio being developed for my friend Guilherme Inácio, built with Next.js, TypeScript, and TailwindCSS.",
+          imageUrl: "https://github.com/rhuanlucasdev.png",
+          imageHint: "github avatar",
+          tags: ["Next.js", "TypeScript", "TailwindCSS"],
+          liveLink: "https://github.com/rhuanlucasdev/portfolio_guilherme",
+        },
+        {
+          title: "Bikecraft",
+          description:
+            "Bikecraft is a bicycle shop website built with HTML, CSS, PHP, and JavaScript, featuring responsive navigation and contact forms.",
+          imageUrl: "https://github.com/rhuanlucasdev.png",
+          imageHint: "github avatar",
+          tags: ["HTML", "CSS", "PHP", "JavaScript"],
+          liveLink: "https://github.com/rhuanlucasdev/bikecraft",
         },
       ],
     },
